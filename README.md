@@ -14,14 +14,8 @@
  <a href="#contribute">Contribute</a>
 </p>
 
-
-
 <p align="center">
     <img src="./.github/landing-page.png" alt="Page Layout" width="400px">
-</p>
-
-<p align="center">
-    <img src="./.github/landing-page-ssr.png" alt="Page Layout" width="400px">
 </p>
 
 <h2 id="started"> -- Sobre -- </h2>
@@ -47,7 +41,7 @@ Como clonar seu projeto
 ```bash
 git clone https://github.com/Fernanda-Kipper/landing-page-ssr.git
 cd lading-page
-``` --</h2>
+``` 
 
 Aqui você descreve como executar seu projeto localmente
 
