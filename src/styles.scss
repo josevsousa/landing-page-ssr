@@ -8,7 +8,7 @@
     padding: 0;
     box-sizing: border-box;
 
-    font-family: "Poppins", sans-serif;    
+    // font-family: "Poppins", sans-serif;    
     background-color: $primary-color;
     color: $primary-text;
 }
@@ -17,14 +17,15 @@ main, footer {
     display: flex;
     flex-direction: column;
     .section{
-        padding: 0 70px;
+        padding: 20px 70px;
     }
 }
 
 @media(max-width: 768px){
     main .section{
         flex-direction: column;
-        background-color: aquamarine;
+        padding: 18px 30px;
     }
+    
 }
 
