@@ -1,11 +1,11 @@
 import { Component } from "@angular/core";
-import { SectionMainComponent } from "../sections/section-main/section-main.component";
-import { SectionAboutComponent } from "../sections/section-about/section-about.component";
-import { SectionEducationComponent } from "../sections/section-education/section-education.component";
-import { SectionExperienceComponent } from "../sections/section-experience/section-experience.component";
-import { SectionSkillsComponent } from "../sections/section-skills/section-skills.component";
-import { SectionContatoComponent } from "../sections/section-contato/section-contato.component";
-import { SectionFooterComponent } from "../sections/section-footer/section-footer.component";
+import { SectionMainComponent } from "../sections/home-sections/section-main/section-main.component";
+import { SectionAboutComponent } from "../sections/home-sections/section-about/section-about.component";
+import { SectionEducationComponent } from "../sections/home-sections/section-education/section-education.component";
+import { SectionExperienceComponent } from "../sections/home-sections/section-experience/section-experience.component";
+import { SectionSkillsComponent } from "../sections/home-sections/section-skills/section-skills.component";
+import { SectionContatoComponent } from "../sections/home-sections/section-contato/section-contato.component";
+import { SectionFooterComponent } from "../sections/home-sections/section-footer/section-footer.component";
 
 @Component({
     selector: 'app-home',

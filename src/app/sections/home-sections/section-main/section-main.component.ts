@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { CardPhotoComponent } from '../../components/card-photo/card-photo.component';
+import { CardPhotoComponent } from '../../../components/card-photo/card-photo.component';
 
 @Component({
   selector: 'section-main',

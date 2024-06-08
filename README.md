@@ -40,7 +40,7 @@ Como clonar seu projeto
 ```bash
 git clone https://github.com/josevsousa/landing-page-ssr.git
 
-cd lading-page
+cd lading-page-ssr
 ``` 
 
 Aqui você descreve como executar seu projeto localmente
