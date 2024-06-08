@@ -1,0 +1,37 @@
+@import "../../../theme/variables.scss";
+.section-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+
+    height: 430px;
+    padding: 0px;   
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .banner{
+        height: 100%;
+        width: 100%;
+        background: $primary-color;
+        opacity: 0.9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .card-photo{
+            background-color: aquamarine;
+        }
+
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .section-main{
+        height: 300px;
+    }
+}

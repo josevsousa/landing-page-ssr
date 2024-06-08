@@ -2,7 +2,7 @@
 [TYPESCRIPT__BADGE]: https://img.shields.io/badge/typescript-D4FAFF?style=for-the-badge&logo=typescript
 [ANGULAR__BADGE]: https://img.shields.io/badge/Angular-red?style=for-the-badge&logo=angular
 
-<h1 align="center" style="font-weight: bold;">Landing Page w/ SSR [ Angular-17, Figma ]</h1>
+<h1 align="center" style="font-weight: bold;">Landing Page Portifólio/SSR </h1>
 
 ![angular][ANGULAR__BADGE]
 ![typescript][TYPESCRIPT__BADGE]
@@ -10,15 +10,14 @@
 
 <p align="center">
  <a href="#about">Sobre</a> • 
- <a href="#started">Primeiros Passos</a> • 
- <a href="#contribute">Contribute</a>
+ <a href="#started">Primeiros Passos</a>
 </p>
 
 <p align="center">
     <img src="./.github/landing-page.png" alt="Page Layout" width="400px">
 </p>
 
-<h2 id="started"> -- Sobre -- </h2>
+<h2 id="about"> -- Sobre -- </h2>
 
 Este repositório contém uma Landing Page 'Portifólio' construída com Angular 17 usando mecanismo SSR construído com base na live da <a href="https://github.com/Fernanda-Kipper">Fernanda-kiper</a> no youtube [Youtube Channel](https://www.youtube.com/live/O26fDEnAukY?si=8OjYdSyhlAuNUSa_).
 
@@ -39,7 +38,8 @@ Aqui você lista todos os pré-requisitos necessários para execução do seu pr
 Como clonar seu projeto
 
 ```bash
-git clone https://github.com/Fernanda-Kipper/landing-page-ssr.git
+git clone https://github.com/josevsousa/landing-page-ssr.git
+
 cd lading-page
 ``` 
 
@@ -52,14 +52,6 @@ Aqui você lista todos os pré-requisitos necessários para execução do seu pr
 - [NodeJS](https://github.com/)
 - [Git 2](https://github.com)
 
-<h3>Clonando</h3>
-
-Como clonar seu projeto
-
-```bash
-git clone https://github.com/Fernanda-Kipper/landing-page-ssr.git
-cd lading-page
-```
 
 <h3>Inicializando</h3>
 

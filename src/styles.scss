@@ -1,1 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:wght@400;700;900&display=swap";
+@import "./theme/variables.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    background-color: $primary-color;
+    color: $primary-text;
+
+    font-family: "Poppins", sans-serif;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+
+    .section{
+        padding: 0 70px;
+    }
+}
+
+
+@media(max-width: 768px){
+    main .section{
+        flex-direction: column;
+        background-color: aquamarine;
+    }
+
+}
+
