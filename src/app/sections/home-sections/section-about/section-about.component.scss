@@ -1,22 +1,9 @@
 @import "../../../../theme/variables.scss";
 
 .section{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 14px;
+       
+    background: -webkit-linear-gradient($secondary-color, $primary-color);
 
-    .title{
-        border-bottom: 3px solid $detach-text;
-        margin-bottom: 10px;
-
-        h1 {
-            font-family: "Plus Jakarta Sans", sans-serif;
-            font-weight: 400;
-            font-size: 41px;
-        }
-    }
     .primary-paragrafo {
         text-align: center;
         font-size: smaller;
@@ -53,11 +40,9 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            align-items: center;
+            align-items: center ;
             .icons-interesses {    
-                display: ruby;  
-                // margin-bottom: 14px;
-                // // gap: 9px;
+                display: ruby; 
             }
         }
     }
@@ -67,11 +52,6 @@
     .primary-section {
         display: contents !important;
         gap: 12px;
-
-        // .icons-interesses {
-        //     display: inline-block !important;  
-
-        // }
     }
     
 }

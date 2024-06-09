@@ -25,7 +25,7 @@ import { SectionFooterComponent } from "../sections/home-sections/section-footer
     </header>
     <main>
         <section-about></section-about>
-        <!-- <section-education></section-education> -->
+        <section-education></section-education>
         <!-- <section-experience></section-experience> -->
         <!-- <section-contato></section-contato> -->
     </main>
