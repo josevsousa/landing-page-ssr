@@ -4,18 +4,6 @@
        
     background: -webkit-linear-gradient($secondary-color, $primary-color);
 
-    .primary-paragrafo {
-        text-align: center;
-        font-size: smaller;
-    } 
-    p {
-        font-family: "Roboto", sans-serif;
-        letter-spacing: 1px;
-        color: $secondary-text;
-        b {
-            color: $detach-text;
-        }
-    }
     .primary-section{
         display: flex;
         flex-direction: row;

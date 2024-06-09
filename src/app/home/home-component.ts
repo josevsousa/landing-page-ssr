@@ -26,11 +26,12 @@ import { SectionFooterComponent } from "../sections/home-sections/section-footer
     <main>
         <section-about></section-about>
         <section-education></section-education>
-        <!-- <section-experience></section-experience> -->
-        <!-- <section-contato></section-contato> -->
+        <section-experience></section-experience>
+        <section-skills></section-skills>
+        <section-contato></section-contato>
     </main>
     <footer>
-        <!-- <section-footer></section-footer> -->
+        <section-footer></section-footer>
     </footer>
     `
 })  
