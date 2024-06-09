@@ -2,7 +2,7 @@ import { NgOptimizedImage } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-card-photo',
+  selector: 'card-photo',
   standalone: true,
   imports: [NgOptimizedImage],
   templateUrl: './card-photo.component.html',
