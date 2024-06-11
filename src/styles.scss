@@ -32,7 +32,7 @@ main, footer {
     gap: 14px;
 
     .title{
-        border-bottom: 3px solid $detach-text;
+        border-bottom: 3px solid $detach-color;
         margin-bottom: 10px;
 
         h1 {
@@ -43,11 +43,12 @@ main, footer {
         }
     }
     .primary-paragrafo {
-        text-align: center;
+        text-align: justify;
         font-size: smaller;
         p {
             font-family: "Roboto", sans-serif;
             letter-spacing: 1px;
+            font-size: 16px;    
             color: $secondary-text;
             b {
                 color: $detach-text;

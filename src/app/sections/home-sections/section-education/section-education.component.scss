@@ -26,9 +26,9 @@
       padding: 13px 17px;
       border-radius: 9px;
       background-color: $primary-color-2;
+      font-family: Roboto, sans-serif;
 
       h3 {
-        font-family: Roboto, sans-serif;
         font-weight: 200;
         font-size: 17px;
         color: $detach-text;
@@ -41,9 +41,13 @@
         border-bottom: 1px solid $primary-color-3;
 
         b {
-          font-family: Roboto, sans-serif;
           font-size: small;
           letter-spacing: 1px;
+        }
+
+        span {
+          font-size: smaller;
+          color: $secondary-text;
         }
       }
     }
