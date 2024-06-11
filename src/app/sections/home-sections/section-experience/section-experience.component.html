@@ -1,10 +1,15 @@
 <section class="section">
     <div class="title">
-        <h1>Experiencia</h1>
+        <h1>Professional experience</h1>
     </div>
     <div class="primary-paragrafo">
         <p>
-            <b>Experiencia</b> type of modal window that appears in front of app content to provide critical information, or prompt for a decision to be made.
+            My experience with fullstck development with front-end and back-end. using angular, firebase, web2py, figma for layout.
         </p>
+        <div class="cards">
+            @for (card of dataCards; track $index) {
+                <card-experience [card]="card"></card-experience>
+            }
+        </div>
     </div>
 </section>

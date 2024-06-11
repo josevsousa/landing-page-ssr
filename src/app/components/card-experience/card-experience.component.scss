@@ -1,0 +1,67 @@
+@import "../../../theme/variables.scss";
+
+.main-card {
+  width: 200px;
+  background-color: $detach-color;
+  border-radius: 13px;
+  margin: 5px;
+
+  display: flex;
+  flex-direction: column;
+
+
+  font-family: 'Roboto', sans-serif;
+
+
+  img {
+    width: 100%;
+    border-radius: 13px 13px 0 0;
+  }
+
+  h2 {
+    padding: 9px 10px;
+    font-size: larger;
+    font-weight: 100;
+    text-align: center;
+
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    letter-spacing: 0.2px;
+
+    h4 {
+      font-weight: 100;
+      font-size: 11px;
+    }
+
+    .card-body-esq {
+      flex: 1;
+
+      h4 {
+        color: $secondary-text;
+      }
+    }
+
+    .card-body-dir {
+      flex: 2;
+
+      text-align: right;
+    }
+  }
+}
+
+
+@media(max-width: 720px) {
+    .main-card{
+        margin: 4px;
+        width: 290px;
+
+        img {
+            width: 290px;
+            height: 162px;
+        }
+    }
+}
