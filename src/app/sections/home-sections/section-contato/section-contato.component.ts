@@ -1,9 +1,10 @@
+import { NgOptimizedImage } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'section-contato',
   standalone: true,
-  imports: [],
+  imports: [NgOptimizedImage],
   templateUrl: './section-contato.component.html',
   styleUrl: './section-contato.component.scss'
 })
