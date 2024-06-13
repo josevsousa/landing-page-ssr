@@ -1,0 +1,27 @@
+@import "../../../../../theme/variables.scss";
+
+.entidade {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4px;
+    gap: 3px;
+    padding: 5px 17px;
+    border-radius: 9px;
+    background-color: $primary-color-2;
+    font-family: Roboto, sans-serif;
+
+    h3 {
+      font-weight: 200;
+      font-size: 17px;
+      color: $detach-text;
+      width: -webkit-fill-available
+    }
+
+    .bar-loading {
+        background: $detach-text;
+        display: flex;
+        flex-direction: row;
+        margin: 4px;
+        border-radius: 20px;
+      }
+  }

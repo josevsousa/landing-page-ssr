@@ -1,0 +1,33 @@
+@import "../../../../theme/variables.scss";
+
+
+
+.section-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-bottom: 30px;
+  width: 100%;
+
+  .entidades-skills {
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+    gap: 3px;
+
+    h2 {
+      font-family: "Roboto", sans-serif;
+      font-weight: 300;
+    }
+
+
+  }
+}
+
+// @media(max-width: 850px) {
+//   .section-body {
+//     width: 100%;
+//   }
+// }
