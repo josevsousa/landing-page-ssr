@@ -1,29 +1,35 @@
 @import "../../../../theme/variables.scss";
-.section-main{
+
+.section-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 420px;
+
+  .banner {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 430px;
-    padding: 0px;   
-    background-repeat: no-repeat;
-    background-size: cover;
+    position: relative;
+    z-index: 2;
+  }
 
-    .banner{
-        height: 100%;
-        width: 100%;
-        background: $primary-color;
-        opacity: 0.9;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+  .img {
+    position: absolute;
+    z-index: 1;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    opacity: 26%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
 
 }
 
 
 @media (max-width: 768px) {
-    .section-main{
-        height: 380px;
-    }
+  .section-main {
+    height: 380px;
+  }
 }

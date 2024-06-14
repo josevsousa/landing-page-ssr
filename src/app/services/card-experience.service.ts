@@ -12,9 +12,9 @@ export class CardExperienceService {
   dataCards: CardExperience[] = [
     { 
       id: 'portifolio',
-      project: "José Vicente de Sousa",
+      project: "Landing Page",
       contribution: " Developer  FullStack",
-      tecnologic: "Python, Web2py "
+      tecnologic: "Angular-17, Figma"
     },
     { 
       id: 'web2pay',
@@ -24,13 +24,13 @@ export class CardExperienceService {
     },
     { 
       id: 'nallubaby',
-      project: "Company M System",
+      project: "Company System",
       contribution: " Developer FullStack",
-      tecnologic: "Python, Web2py"
+      tecnologic: "Angular-9, Firebase"
     },
     { 
       id: 'artesanalbaby',
-      project: "Company M System",
+      project: "Company System",
       contribution: " Developer FullStack",
       tecnologic: "Python, Web2py "
     }
