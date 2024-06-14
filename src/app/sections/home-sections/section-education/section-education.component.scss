@@ -1,66 +1,72 @@
 @import "../../../../theme/variables.scss";
 
-.section-body {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding-bottom: 30px;
-  width: 100%;
+.section {
 
-  .entidades-de-ensino {
+  background: -webkit-linear-gradient($secondary-color, $primary-color);
+
+  .section-body {
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    align-items: flex-start;
+    padding-bottom: 30px;
     width: 100%;
-    gap: 3px;
 
-    h2 {
-      font-family: "Roboto", sans-serif;
-      font-weight: 500;
-    }
-
-    .entidade {
+    .entidades-de-ensino {
       display: flex;
-      flex-direction: row;
-      margin-top: 4px;
+      flex-direction: column;
+      margin-top: 20px;
+      width: 100%;
       gap: 3px;
-      padding: 13px 17px;
-      border-radius: 9px;
-      background-color: $primary-color-2;
-      font-family: Roboto, sans-serif;
 
-      h3 {
-        font-weight: 200;
-        font-size: 17px;
-        color: $detach-text;
+      h2 {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: medium;
       }
 
-      p {
-        flex: 1;
-        width: 100%;
-        padding: 0 0 8px 7px;
-        border-bottom: 1px solid $primary-color-3;
+      .entidade {
+        display: flex;
+        flex-direction: row;
+        margin-top: 4px;
+        gap: 3px;
+        padding: 13px 17px;
+        border-radius: 9px;
+        background-color: $primary-color-2;
+        font-family: Roboto, sans-serif;
 
-        b {
-          font-size: small;
-          letter-spacing: 1px;
+        h3 {
+          font-weight: 200;
+          font-size: 17px;
+          color: $detach-text;
         }
 
-        span {
-          font-size: smaller;
-          color: $secondary-text;
+        p {
+          flex: 1;
+          width: 100%;
+          padding: 0 0 8px 7px;
+          border-bottom: 1px solid $primary-color-3;
+
+          b {
+            font-size: small;
+            letter-spacing: 1px;
+          }
+
+          span {
+            font-size: smaller;
+            color: $secondary-text;
+          }
         }
       }
     }
+
   }
 
-}
-
-@media(max-width: 768px) {
-  .section-body {
-    .entidades-de-ensino {
-      .entidade {
-        flex-direction: column;
+  @media(max-width: 768px) {
+    .section-body {
+      .entidades-de-ensino {
+        .entidade {
+          flex-direction: column;
+        }
       }
     }
   }
