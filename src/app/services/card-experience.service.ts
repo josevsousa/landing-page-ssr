@@ -24,7 +24,7 @@ export class CardExperienceService {
       project: "Framework FullStack",
       contribution: "Designer Layout ",
       tecnologic: "html, css, js",
-      link: 'http://web2py.com.com',
+      link: 'http://web2py.com',
 
     },
     { 
