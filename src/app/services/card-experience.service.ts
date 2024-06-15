@@ -42,6 +42,13 @@ export class CardExperienceService {
       tecnologic: "Python, Web2py ",
       link: 'https://josevsousa.pythonanywhere.com/artesanalbaby/',
       linkGit: 'https://github.com/josevsousa/SIS_AB_FAB'
+    },
+    { 
+      id: 'bitsol',
+      project: "Company Control",
+      contribution: " Developer FullStack",
+      tecnologic: "Front-end, Bootstrap",
+      link: 'http://bitsol.com.br/'
     }
   ]
 
