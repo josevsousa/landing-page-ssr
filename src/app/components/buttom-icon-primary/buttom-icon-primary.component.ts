@@ -10,5 +10,5 @@ import { Component, Input } from '@angular/core';
 })
 export class ButtomIconPrimaryComponent {
   @Input() title: string = 'nome';  
-  @Input() icon: string = 'icon';  
+  // @Input() icon: string = 'icon';  
 }
