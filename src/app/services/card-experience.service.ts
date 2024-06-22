@@ -15,7 +15,7 @@ export class CardExperienceService {
       project: "Portifolio LP-SSR",
       contribution: " Developer  FullStack",
       tecnologic: "Angular-17, Figma",
-      link: 'https://josevicentedesousa.surge.sh/',
+      link: 'https://josevicentedesousa.neflify.app/',
       linkGit: 'https://github.com/josevsousa/landing-page-ssr',
       linkFigma: 'https://www.figma.com/design/WmBl93CrSqL0GYZQq68dv2/loading-page?node-id=0-1&t=MhTR2tPuPrgPNdJc-1'
     },
