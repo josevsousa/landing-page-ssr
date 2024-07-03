@@ -19,6 +19,15 @@ export class CardExperienceService {
       linkFigma: 'https://www.figma.com/design/WmBl93CrSqL0GYZQq68dv2/loading-page?node-id=0-1&t=MhTR2tPuPrgPNdJc-1'
     },
     { 
+      id: 'telalogin',
+      project: "Tela Login",
+      contribution: " Developer  FullStack",
+      tecnologic: "Angular-17, Figma",
+      link: 'http://josevicentedesousa-telalogin.netlify.app',
+      linkGit: 'https://github.com/josevsousa/tela-login',
+      linkFigma: 'https://www.figma.com/design/RLixx5RGsT0A0BOwLC1d9E/Tela-login?node-id=0-1&t=sXqZD6aHoRBABVNk-1'
+    },
+    { 
       id: 'web2pay',
       project: "Framework FullStack",
       contribution: "Designer Layout ",
