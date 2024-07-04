@@ -3,6 +3,7 @@
 .main-card {
   width: 200px;
   background-color: $detach-color;
+  background: -webkit-linear-gradient(.3turn, $primary-color, $primary-color-3);
   border-radius: 13px;
   margin: 5px;
   padding-bottom: 16px;
