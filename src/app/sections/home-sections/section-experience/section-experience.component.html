@@ -4,10 +4,10 @@
     </div>
     <div class="primary-paragrafo">
         <p>
-            Meus projetos fullstck no front-end:[ Angular, HTML, CSS, JS ], back-end: [ firebase, web2py, Nodejs ], Designer: [ Figma, Scss, Gimp].
+            Meus projetos fullstck no front-end:[ Angular, HTML, CSS, JS ], back-end: [ firebase, web2py, Nodejs ], Designer: [ Figma, Tailwind].
         </p>
         <div class="cards">
-            @for (card of dataCards; track $index) {
+            @for (card of dataCards; track $index) { 
                 <card-experience [card]="card"></card-experience>
             }
         </div>

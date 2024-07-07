@@ -2,8 +2,8 @@
 
 .main-card {
   width: 200px;
-  background-color: $detach-color;
   background: -webkit-linear-gradient(.3turn, $primary-color, $primary-color-3);
+  box-shadow: #0e171d 2px 3px 13px;
   border-radius: 13px;
   margin: 5px;
   padding-bottom: 16px;
@@ -20,7 +20,7 @@
   }
 
   h2 {
-    padding: 9px 10px;
+    padding: 10px 10px 0px 10px;
     font-size: larger;
     font-weight: 100;
     text-align: center;

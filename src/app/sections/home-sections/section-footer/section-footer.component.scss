@@ -1,4 +1,14 @@
+@import "../../../../theme/variables.scss";
 .section {
     float: left;
     padding: 22px 14px;
+
+    .primary-paragrafo{
+        p {
+            a{
+                text-decoration: none;
+                color:$primary-text;
+            }
+        }
+    }
 }
